@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "create_pizza",
+  "version": "${version}",
+  "name": "Create Pizza",
+  "description": "Adds some skibidis",
+  "authors": [
+    "Non_Reai"
+  ],
+  "contact": {
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/create_pizza/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "create_pizza.CreatePizza"
+    ]
+  },
+  "mixins": [
+    "create_pizza.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

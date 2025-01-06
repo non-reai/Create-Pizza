@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "create_pizza:raw_cheese_pizza"
+  },
+  "result": "create_pizza:cheese_pizza"
+}

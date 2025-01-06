@@ -1,0 +1,37 @@
+{
+  "parent": "create_pizza:tomato",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "create_pizza:tomato"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancement.create_pizza.tomato_eat"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_pizza.tomato_eat.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion: \"minecraft:poison\"}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

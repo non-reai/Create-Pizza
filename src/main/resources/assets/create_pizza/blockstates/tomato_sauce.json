@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_pizza:block/tomato_sauce"
+    }
+  }
+}

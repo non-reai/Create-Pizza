@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_pizza:tomato"
+    }
+  ],
+  "results": [
+    {
+      "amount": 20250,
+      "fluid": "create_pizza:tomato_sauce",
+      "nbt": {}
+    }
+  ]
+}

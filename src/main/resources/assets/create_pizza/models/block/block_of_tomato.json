@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "create_pizza:block/tomato_top",
+    "side": "create_pizza:block/tomato_side"
+  }
+}

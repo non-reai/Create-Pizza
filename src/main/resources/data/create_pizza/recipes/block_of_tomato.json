@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    },
+    {
+      "item": "create_pizza:tomato"
+    }
+  ],
+  "result": {
+    "item": "create_pizza:block_of_tomato"
+  }
+}

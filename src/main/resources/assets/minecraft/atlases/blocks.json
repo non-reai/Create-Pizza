@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "create_pizza:fluid/tomato_sauce_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_pizza:fluid/tomato_sauce_flow"
+    }
+  ]
+}

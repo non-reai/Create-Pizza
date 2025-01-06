@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "create_pizza:milk_curds"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_pizza:cheese"
+    }
+  ]
+}

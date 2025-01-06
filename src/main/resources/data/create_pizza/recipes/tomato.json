@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_pizza:block_of_tomato"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create_pizza:tomato"
+  }
+}

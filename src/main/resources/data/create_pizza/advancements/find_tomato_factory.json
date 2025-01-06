@@ -1,0 +1,42 @@
+{
+  "parent": "create_pizza:tomato",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "create_pizza:tomato_factory"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancement.create_pizza.find_tomato_factory"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_pizza.find_tomato_factory.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:mechanical_harvester"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

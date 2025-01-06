@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "create_pizza:block/tomato_plant_stage5"
+  }
+}

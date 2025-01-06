@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_pizza:pizza_dough"
+    },
+    {
+      "amount": 20250,
+      "fluid": "create_pizza:tomato_sauce",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create_pizza:raw_sauced_pizza"
+    }
+  ]
+}

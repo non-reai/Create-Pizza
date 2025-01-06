@@ -1,0 +1,38 @@
+{
+  "parent": "create_pizza:sauce_pizza",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_pizza:cheese_pizza"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {
+      "translate": "advancement.create_pizza.cheese_pizza"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_pizza.cheese_pizza.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create_pizza:cheese_pizza"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_pizza:raw_sauced_pizza"
+    },
+    {
+      "item": "create_pizza:shredded_cheese"
+    }
+  ],
+  "keepHeldItem": false,
+  "results": [
+    {
+      "item": "create_pizza:raw_cheese_pizza"
+    }
+  ]
+}

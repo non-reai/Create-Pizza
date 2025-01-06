@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "create:textures/block/palettes/stone_types/limestone.png",
+    "title": {
+      "translate": "advancement.create_pizza.root"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_pizza.root.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create_pizza:pin_roller"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

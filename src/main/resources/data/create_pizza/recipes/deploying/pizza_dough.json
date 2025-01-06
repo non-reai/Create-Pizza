@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "create_pizza:pin_roller"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "create_pizza:pizza_dough"
+    }
+  ]
+}
