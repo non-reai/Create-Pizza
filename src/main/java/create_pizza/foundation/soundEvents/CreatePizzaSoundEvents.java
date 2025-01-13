@@ -3,13 +3,15 @@ package create_pizza.foundation.soundEvents;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
-import com.simibubi.create.Create;
-
 import create_pizza.CreatePizza;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Vec3i;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.data.CachedOutput;
+import net.minecraft.data.DataProvider;
+import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundSource;
@@ -18,13 +20,15 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;
 
-public class SoundEvents {
+public class CreatePizzaSoundEvents {
 	public static final Map<ResourceLocation, SoundEntry> ALL = new HashMap<>();
 
 	public static final SoundEntry
@@ -49,6 +53,43 @@ public class SoundEvents {
 
 	public static SoundEntryBuilder create(ResourceLocation id) {
 		return new SoundEntryBuilder(id);
+	}
+
+	public static DataProvider provider(FabricDataOutput output) {
+		return new SoundEntryProvider(output);
+	}
+
+	private static class SoundEntryProvider implements DataProvider {
+
+		private PackOutput output;
+
+		public SoundEntryProvider(PackOutput output) {
+			this.output = output;
+		}
+
+		@Override
+		public CompletableFuture<?> run(CachedOutput cache) {
+			return generate(output.getOutputFolder(), cache);
+		}
+
+		@Override
+		public String getName() {
+			return "Create: Pizza's Custom Sounds";
+		}
+
+		public CompletableFuture<?> generate(Path path, CachedOutput cache) {
+			path = path.resolve("assets/create_pizza");
+			JsonObject json = new JsonObject();
+			ALL.entrySet()
+					.stream()
+					.sorted(Map.Entry.comparingByKey())
+					.forEach(entry -> {
+						entry.getValue()
+								.write(json);
+					});
+			return DataProvider.saveStable(cache, json, path.resolve("sounds.json"));
+		}
+
 	}
 
 	public record ConfiguredSoundEvent(Supplier<SoundEvent> event, float volume, float pitch) {

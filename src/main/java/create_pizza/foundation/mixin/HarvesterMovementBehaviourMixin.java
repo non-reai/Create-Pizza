@@ -1,4 +1,4 @@
-package create_pizza.mixin;
+package create_pizza.foundation.mixin;
 
 import com.simibubi.create.content.contraptions.actors.harvester.HarvesterMovementBehaviour;
 

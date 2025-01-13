@@ -3,7 +3,7 @@ package create_pizza;
 import com.tterrag.registrate.util.entry.ItemEntry;
 
 import create_pizza.content.TomatoItem;
-import create_pizza.foundation.soundEvents.SoundEvents;
+import create_pizza.foundation.soundEvents.CreatePizzaSoundEvents;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
@@ -73,14 +73,21 @@ public class CreatePizzaItems {
 			REGISTRATE.item("cheese_pizza", Item::new)
 					.properties(p -> p.food(new FoodProperties.Builder()
 							.nutrition(12)
-							.saturationMod(0.5F)
+							.saturationMod(0.2F)
+							.build()))
+					.register();
+	public static final ItemEntry<Item> RAW_SAUSAGE_PIZZA =
+			REGISTRATE.item("raw_sausage_pizza", Item::new)
+					.properties(p -> p.food(new FoodProperties.Builder()
+							.nutrition(14)
+							.saturationMod(0.2F)
 							.build()))
 					.register();
 
 	// Disc
 
 	public static final ItemEntry<RecordItem> MUSIC_DISC_TOMATO_JAM =
-			REGISTRATE.item("music_disc_tomato_jam", props -> new RecordItem(14, SoundEvents.TOMATO_JAM.getMainEvent(), props.stacksTo(1).rarity(Rarity.RARE), 112))
+			REGISTRATE.item("music_disc_tomato_jam", props -> new RecordItem(14, CreatePizzaSoundEvents.TOMATO_JAM.getMainEvent(), props.stacksTo(1).rarity(Rarity.RARE), 112))
 					.register();
 
 	public static void load() { }

@@ -1,7 +1,5 @@
 package create_pizza.config;
 
-import com.simibubi.create.foundation.config.ConfigBase;
-
 import net.minecraftforge.common.ForgeConfigSpec;
 
 public class ClientConfig {

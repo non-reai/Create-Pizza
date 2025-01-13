@@ -5,9 +5,9 @@ import com.simibubi.create.Create;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 
 import create_pizza.config.CreatePizzaConfig;
-import create_pizza.foundation.events.ClientEvents;
-import create_pizza.foundation.lootTableModifiers.LootTableModifiers;
-import create_pizza.foundation.soundEvents.SoundEvents;
+import create_pizza.foundation.events.CreatePizzaClientEvents;
+import create_pizza.foundation.lootTableModifiers.CreatePizzaLootTableModifiers;
+import create_pizza.foundation.soundEvents.CreatePizzaSoundEvents;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -45,15 +45,15 @@ public class CreatePizza implements ModInitializer {
 
 		CreatePizzaConfig.getClient();
 
-		SoundEvents.prepare();
+		CreatePizzaSoundEvents.prepare();
 
 		REGISTRATE.register();
 
-		SoundEvents.register();
+		CreatePizzaSoundEvents.register();
 
-		LootTableModifiers.modifyLootTables();
+		CreatePizzaLootTableModifiers.modifyLootTables();
 
-		ClientEvents.register();
+		CreatePizzaClientEvents.register();
 	}
 
 	public static ResourceLocation asResource(String path) {

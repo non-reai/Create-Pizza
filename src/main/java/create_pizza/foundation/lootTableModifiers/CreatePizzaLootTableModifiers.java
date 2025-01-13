@@ -10,7 +10,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCon
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
-public class LootTableModifiers {
+public class CreatePizzaLootTableModifiers {
 	private static final ResourceLocation VILLAGE_PLAINS_HOUSE_ID = new ResourceLocation("minecraft","chests/village/village_plains_house");
 	private static final ResourceLocation TOMATO_FACTORY_HOUSE_ID = new ResourceLocation("minecraft","chests/tomato_factory");
 	public static void modifyLootTables() {

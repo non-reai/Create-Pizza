@@ -14,7 +14,7 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.FogType;
 
-public class ClientEvents {
+public class CreatePizzaClientEvents {
 	public static boolean getFogDensity(FogRenderer.FogMode mode, FogType type, Camera camera, float partialTick, float renderDistance, float nearDistance, float farDistance, FogShape shape, FogEvents.FogData fogData) {
 		Level level = Minecraft.getInstance().level;
 		BlockPos blockPos = camera.getBlockPosition();
@@ -54,7 +54,7 @@ public class ClientEvents {
 	public static void register() {
 		com.simibubi.create.foundation.events.ClientEvents.ModBusEvents.registerClientReloadListeners();
 
-		FogEvents.RENDER_FOG.register(ClientEvents::getFogDensity);
-		FogEvents.SET_COLOR.register(ClientEvents::getFogColor);
+		FogEvents.RENDER_FOG.register(CreatePizzaClientEvents::getFogDensity);
+		FogEvents.SET_COLOR.register(CreatePizzaClientEvents::getFogColor);
 	}
 }
