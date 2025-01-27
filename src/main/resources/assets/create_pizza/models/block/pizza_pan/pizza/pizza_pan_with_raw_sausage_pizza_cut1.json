@@ -1,0 +1,7 @@
+{
+    "parent": "create_pizza:block/pizza_pan/base_models/pizza_pan_with_pizza_cut1",
+    "textures": {
+        "2": "create_pizza:block/pizza_pan/pizza/raw_sausage_pizza",
+        "particle": "create_pizza:block/pizza_pan/pizza/raw_sausage_pizza"
+    }
+}

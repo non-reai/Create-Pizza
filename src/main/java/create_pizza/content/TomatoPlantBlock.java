@@ -45,7 +45,6 @@ public class TomatoPlantBlock extends CropBlock {
 
 	@Override
 	public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-		System.out.println("USE");
 		int age = (Integer)state.getValue(AGE);
 		boolean canBonemeal = age == 7;
 		if (!canBonemeal && player.getItemInHand(hand).is(Items.BONE_MEAL)) {

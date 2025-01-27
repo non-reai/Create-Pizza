@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "create_pizza.CreatePizza"
+    ],
+    "client": [
+      "create_pizza.CreatePizzaClient"
     ]
   },
   "mixins": [

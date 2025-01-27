@@ -7,5 +7,23 @@
       }
     ],
     "subtitle": "create_pizza.subtitle.tomato_jam"
+  },
+  "pizza": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create_pizza:records/pizza"
+      }
+    ],
+    "subtitle": "create_pizza.subtitle.pizza"
+  },
+  "splat": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create_pizza:splat"
+      }
+    ],
+    "subtitle": "create_pizza.subtitle.splat"
   }
 }

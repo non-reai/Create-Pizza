@@ -9,7 +9,8 @@ import net.minecraft.world.damagesource.DamageType;
 
 public class CreatePizzaDamageTypes {
 	public static final ResourceKey<DamageType>
-			TOMATO_POISONING = key("tomato_poisoning");
+			TOMATO_POISONING = key("tomato_poisoning"),
+			TOMATO_HIT = key("tomato_hit");
 
 	private static ResourceKey<DamageType> key(String name) {
 		return ResourceKey.create(Registries.DAMAGE_TYPE, CreatePizza.asResource(name));
@@ -17,5 +18,6 @@ public class CreatePizzaDamageTypes {
 
 	public static void bootstrap(BootstapContext<DamageType> ctx) {
 		new DamageTypeBuilder(TOMATO_POISONING).register(ctx);
+		new DamageTypeBuilder(TOMATO_HIT).register(ctx);
 	}
 }

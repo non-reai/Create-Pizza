@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_pizza:flowing_tomato_sauce",
+    "create_pizza:tomato_sauce"
+  ]
+}

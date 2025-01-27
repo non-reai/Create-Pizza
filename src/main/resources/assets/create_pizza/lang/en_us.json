@@ -1,24 +1,52 @@
 {
-  "item.create_pizza.pizza_dough": "Pizza Dough",
   "item.create_pizza.pin_roller": "Pin Roller",
+  "item.create_pizza.pizza_cutter": "Pizza Cutter",
+
   "item.create_pizza.tomato_seeds": "Tomato Seeds",
   "item.create_pizza.tomato": "Tomato",
-  "item.create_pizza.cheese": "Cheese",
-  "item.create_pizza.milk_curds": "Milk Curds",
+  "item.create_pizza.throwable_tomato": "Throwable Tomato",
+  "item.create_pizza.block_of_tomato": "Block of Tomato",
   "item.create_pizza.tomato_sauce_bucket": "Bucket of Tomato Sauce",
+
+  "item.create_pizza.cheese": "Cheese",
+  "item.create_pizza.shredded_cheese": "Shredded Cheese",
+  "item.create_pizza.milk_curds": "Milk Curds",
+  "item.create_pizza.pepperoni": "Pepperoni",
+  "item.create_pizza.cut_pepperoni": "Cut Pepperoni",
+  "item.create_pizza.sausage": "Sausage",
+  "item.create_pizza.cut_sausage": "Cut Sausage",
+
+  "item.create_pizza.pizza_dough": "Pizza Dough",
   "item.create_pizza.raw_sauced_pizza": "Raw Sauced Pizza",
   "item.create_pizza.raw_cheese_pizza": "Raw Cheese Pizza",
   "item.create_pizza.cheese_pizza": "Cheese Pizza",
-  "item.create_pizza.shredded_cheese": "Shredded Cheese",
-  "item.create_pizza.block_of_tomato": "Block of Tomato",
+  "item.create_pizza.raw_sausage_pizza": "Raw Sausage Pizza",
+  "item.create_pizza.sausage_pizza": "Sausage Pizza",
+  "item.create_pizza.raw_pepperoni_pizza": "Raw Pepperoni Pizza",
+  "item.create_pizza.pepperoni_pizza": "Pepperoni Pizza",
+
   "item.create_pizza.music_disc_tomato_jam": "Music Disc",
   "item.create_pizza.music_disc_tomato_jam.desc": "Koogee - Tomato Jam",
+  "item.create_pizza.music_disc_pizza": "Music Disc",
+  "item.create_pizza.music_disc_pizza.desc": "Non_Reai - Pizza",
+
+  "item.create_pizza.incomplete_raw_pepperoni_pizza": "Incomplete Raw Pepperoni Pizza",
+  "item.create_pizza.incomplete_raw_sausage_pizza": "Incomplete Raw Sausage Pizza",
 
   "block.create_pizza.tomato_plant": "Tomato Plant",
   "block.create_pizza.tomato_sauce": "Tomato Sauce",
   "block.create_pizza.block_of_tomato": "Block of Tomato",
+  "block.create_pizza.pizza_pan": "Pizza Pan",
+
+  "entity.create_pizza.throwable_tomato": "Throwable Tomato",
+
+  "painting.create_pizza.i_hate_tomatoes.title": "I Hate Tomatoes!",
+  "painting.create_pizza.i_hate_tomatoes.author": "The_Ham_Sandwich_42",
 
   "death.attack.create_pizza.tomato_poisoning": "%1$s died by eating a tomato (%1$s hates tomatoes.)",
+  "death.attack.create_pizza.tomato_poisoning.player": "%1$s died by eating a tomato whilst being attacked by %2$s ",
+  "death.attack.create_pizza.tomato_hit": "%1$s got tomato'd",
+  "death.attack.create_pizza.tomato_hit.player": "%1$s got tomato'd by %2$s",
 
   "advancement.create_pizza.root": "Create: Pizza",
   "advancement.create_pizza.root.desc": "The pizza arc begins.",
@@ -38,12 +66,24 @@
   "advancement.create_pizza.block_of_tomato.desc": "Obtain a block of tomato.\n§7(Hidden Advancement)",
   "advancement.create_pizza.tomato_eat_too_much": "Tomato Connoisseur",
   "advancement.create_pizza.tomato_eat_too_much.desc": "Eat 10 tomatoes. (You madman)\n§7(Hidden Advancement)",
+
   "advancement.create_pizza.cheese_pizza": "The Regular",
   "advancement.create_pizza.cheese_pizza.desc": "Obtain Cheese Pizza.",
+  "advancement.create_pizza.sausage_pizza": "Do people actually order this?",
+  "advancement.create_pizza.sausage_pizza.desc": "Obtain Sausage Pizza.",
+  "advancement.create_pizza.pepperoni_pizza": "Not Bell Peppers",
+  "advancement.create_pizza.pepperoni_pizza.desc": "Obtain Pepperoni Pizza.",
+
   "advancement.create_pizza.music_disc_tomato_jam": "Tomato Jammin'",
   "advancement.create_pizza.music_disc_tomato_jam.desc": "Find Tomato Jam music disc.\n§7(Hidden Advancement)",
+  "advancement.create_pizza.tomato_throw": "BOOOOOO!!!",
+  "advancement.create_pizza.tomato_throw.desc": "Throw a tomato.\n§7(Hidden Advancement)",
+  "advancement.create_pizza.pizza_dough_eat": "Silly Shalz!",
+  "advancement.create_pizza.pizza_dough_eat.desc": "Why do you like eating pizza dough?\n§7(Hidden Advancement)",
 
   "tab.create_pizza.tab": "Create: Pizza",
 
-  "create_pizza.subtitle.tomato_jam": "Tomato Jam plays"
+  "create_pizza.subtitle.tomato_jam": "Tomato Jam plays",
+  "create_pizza.subtitle.pizza": "Pizza plays",
+  "create_pizza.subtitle.splat": "Splat"
 }

@@ -1,6 +1,5 @@
 package create_pizza;
 
-import com.simibubi.create.AllTags;
 import com.tterrag.registrate.fabric.SimpleFlowableFluid;
 import com.tterrag.registrate.util.entry.FluidEntry;
 
@@ -13,7 +12,6 @@ import net.fabricmc.fabric.api.transfer.v1.fluid.base.FullItemFluidStorage;
 import net.fabricmc.fabric.api.transfer.v1.item.ItemVariant;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.tags.FluidTags;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.material.Fluid;
 
@@ -25,8 +23,6 @@ import static net.minecraft.world.item.Items.BUCKET;
 public class CreatePizzaFluids {
 	public static final FluidEntry<SimpleFlowableFluid.Flowing> TOMATO_SAUCE =
 			REGISTRATE.standardFluid("tomato_sauce")
-//					.lang("Chocolate")
-					.tag(FluidTags.WATER) // fabric: water tag controls physics
 					.fluidProperties(p -> p.levelDecreasePerBlock(2)
 							.tickRate(25)
 							.flowSpeed(3)

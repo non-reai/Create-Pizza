@@ -1,14 +1,10 @@
 package create_pizza.content;
 
 import create_pizza.CreatePizzaItems;
-import create_pizza.config.ClientConfig;
 import create_pizza.config.CreatePizzaConfig;
-import create_pizza.foundation.damageTypes.CreatePizzaDamageSources;
+import create_pizza.CreatePizzaDamageSources;
 import net.minecraft.advancements.CriteriaTriggers;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.stats.Stat;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
@@ -36,7 +32,7 @@ public class TomatoItem extends Item {
 
 		if (world.isClientSide) {
 			if (CreatePizzaConfig.getClient().exitGameOnTomatoEat.get()) {
-				System.exit(0);
+				throw new RuntimeException("Ate a tomato (you hate tomatoes you said to yourself)");
 			}
 		}
 

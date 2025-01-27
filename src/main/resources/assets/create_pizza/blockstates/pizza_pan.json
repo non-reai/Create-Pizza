@@ -1,0 +1,279 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza_pan"
+            }
+        },
+        {
+            "when": {
+                "pizza": 1,
+                "cut": 0
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_cheese_pizza"
+            }
+        },
+        {
+            "when": {
+                "pizza": 1,
+                "cut": 1
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_cheese_pizza_cut0"
+            }
+        },
+        {
+            "when": {
+                "pizza": 1,
+                "cut": 2
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_cheese_pizza_cut1"
+            }
+        },
+        {
+            "when": {
+                "pizza": 1,
+                "cut": 3
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_cheese_pizza_cut2"
+            }
+        },
+        {
+            "when": {
+                "pizza": 1,
+                "cut": 4
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_cheese_pizza_cut3"
+            }
+        },
+        {
+            "when": {
+                "pizza": 2,
+                "cut": 0
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_cheese_pizza"
+            }
+        },
+        {
+            "when": {
+                "pizza": 2,
+                "cut": 1
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_cheese_pizza_cut0"
+            }
+        },
+        {
+            "when": {
+                "pizza": 2,
+                "cut": 2
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_cheese_pizza_cut1"
+            }
+        },
+        {
+            "when": {
+                "pizza": 2,
+                "cut": 3
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_cheese_pizza_cut2"
+            }
+        },
+        {
+            "when": {
+                "pizza": 2,
+                "cut": 4
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_cheese_pizza_cut3"
+            }
+        },
+        {
+            "when": {
+                "pizza": 3,
+                "cut": 0
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_sausage_pizza"
+            }
+        },
+        {
+            "when": {
+                "pizza": 3,
+                "cut": 1
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_sausage_pizza_cut0"
+            }
+        },
+        {
+            "when": {
+                "pizza": 3,
+                "cut": 2
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_sausage_pizza_cut1"
+            }
+        },
+        {
+            "when": {
+                "pizza": 3,
+                "cut": 3
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_sausage_pizza_cut2"
+            }
+        },
+        {
+            "when": {
+                "pizza": 3,
+                "cut": 4
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_sausage_pizza_cut3"
+            }
+        },
+        {
+            "when": {
+                "pizza": 4,
+                "cut": 0
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_sausage_pizza"
+            }
+        },
+        {
+            "when": {
+                "pizza": 4,
+                "cut": 1
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_sausage_pizza_cut0"
+            }
+        },
+        {
+            "when": {
+                "pizza": 4,
+                "cut": 2
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_sausage_pizza_cut1"
+            }
+        },
+        {
+            "when": {
+                "pizza": 4,
+                "cut": 3
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_sausage_pizza_cut2"
+            }
+        },
+        {
+            "when": {
+                "pizza": 4,
+                "cut": 4
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_sausage_pizza_cut3"
+            }
+        },
+        {
+            "when": {
+                "pizza": 5,
+                "cut": 0
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_pepperoni_pizza"
+            }
+        },
+        {
+            "when": {
+                "pizza": 5,
+                "cut": 1
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_pepperoni_pizza_cut0"
+            }
+        },
+        {
+            "when": {
+                "pizza": 5,
+                "cut": 2
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_pepperoni_pizza_cut1"
+            }
+        },
+        {
+            "when": {
+                "pizza": 5,
+                "cut": 3
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_pepperoni_pizza_cut2"
+            }
+        },
+        {
+            "when": {
+                "pizza": 5,
+                "cut": 4
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_raw_pepperoni_pizza_cut3"
+            }
+        },
+        {
+            "when": {
+                "pizza": 6,
+                "cut": 0
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_pepperoni_pizza"
+            }
+        },
+        {
+            "when": {
+                "pizza": 6,
+                "cut": 1
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_pepperoni_pizza_cut0"
+            }
+        },
+        {
+            "when": {
+                "pizza": 6,
+                "cut": 2
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_pepperoni_pizza_cut1"
+            }
+        },
+        {
+            "when": {
+                "pizza": 6,
+                "cut": 3
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_pepperoni_pizza_cut2"
+            }
+        },
+        {
+            "when": {
+                "pizza": 6,
+                "cut": 4
+            },
+            "apply": {
+                "model": "create_pizza:block/pizza_pan/pizza/pizza_pan_with_pepperoni_pizza_cut3"
+            }
+        }
+    ]
+}

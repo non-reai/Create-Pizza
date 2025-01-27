@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create_pizza:pepperoni"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 6,
+      "item": "create_pizza:cut_pepperoni"
+    }
+  ]
+}

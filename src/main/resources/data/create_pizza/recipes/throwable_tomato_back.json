@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "create_pizza:throwable_tomato"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "create_pizza:tomato"
+  },
+  "show_notification": true
+}

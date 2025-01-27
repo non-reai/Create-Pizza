@@ -1,0 +1,11 @@
+{
+  "comment": "this file is for my custom datagen",
+  "pizza_variants": [
+    "raw_cheese_pizza",
+    "cheese_pizza",
+    "raw_sausage_pizza",
+    "sausage_pizza",
+    "raw_pepperoni_pizza",
+    "pepperoni_pizza"
+  ]
+}

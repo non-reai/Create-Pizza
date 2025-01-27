@@ -1,0 +1,38 @@
+{
+  "parent": "create_pizza:sausage_pizza",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_pizza:pepperoni_pizza"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {
+      "translate": "advancement.create_pizza.pepperoni_pizza"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_pizza.pepperoni_pizza.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create_pizza:pepperoni_pizza"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

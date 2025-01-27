@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "create_pizza:sausage"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_pizza:pepperoni"
+    }
+  ]
+}

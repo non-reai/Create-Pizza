@@ -2,8 +2,10 @@ package create_pizza;
 
 import com.tterrag.registrate.util.entry.BlockEntry;
 
+import create_pizza.content.PizzaPanBlock;
 import create_pizza.content.TomatoPlantBlock;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
@@ -28,7 +30,11 @@ public class CreatePizzaBlocks {
 					.properties(p -> p.destroyTime(1F))
 					.simpleItem()
 					.register(); // Register the block
-
+	public static final BlockEntry<PizzaPanBlock> PIZZA_PAN =
+			REGISTRATE.block("pizza_pan", PizzaPanBlock::new)
+					.properties(p -> p.destroyTime(0.5F))
+					.simpleItem()
+					.register(); // Register the block
 
 	public static void load() { }
 }

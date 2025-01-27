@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "create_pizza:pin_roller"
+    },
+    "X": {
+      "item": "create:dough"
+    }
+  },
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "result": {
+    "item": "create_pizza:pizza_dough"
+  },
+  "show_notification": true
+}

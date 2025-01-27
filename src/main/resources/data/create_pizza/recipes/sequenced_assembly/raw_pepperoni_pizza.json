@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_pizza:raw_cheese_pizza"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "item": "create_pizza:raw_pepperoni_pizza"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_pizza:incomplete_raw_pepperoni_pizza"
+        },
+        {
+          "item": "create_pizza:cut_pepperoni"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_pizza:incomplete_raw_pepperoni_pizza"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_pizza:incomplete_raw_pepperoni_pizza"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "create_pizza:pizza_dough",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "create_pizza:pizza_dough"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancement.create_pizza.pizza_dough_eat"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_pizza.pizza_dough_eat.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "create_pizza:pizza_dough"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

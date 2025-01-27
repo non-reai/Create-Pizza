@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "create_pizza:sausage"
+    }
+  ]
+}

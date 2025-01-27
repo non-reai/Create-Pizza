@@ -1,10 +1,22 @@
 # Create: Pizza 🍕
-Create: Pizza is a Create Fabric addon that adds **pizza** along with other pizza-y things (see below). This mod is still being developed and expect to see changes in future updates. 
+Create: Pizza is a Create Fabric addon that adds **pizza** along with other pizza-y things (see below). This mod is still being developed and expect to see changes in future updates.
 
 ![Example of Pizza Automation](https://cdn.modrinth.com/data/F3Uy18CF/images/41fb5b0350732cfe92d78b4bf8c844f8aa179342.png)
 ![Tomato Factory](https://cdn.modrinth.com/data/F3Uy18CF/images/c52b28c075ec554fd7e21a5c842110d3d307be75.png)
 
-## 🔨 Features 
+## 📄 Changelogs
+
+* Added new pizza variants
+* Added Throwable Tomato
+* Made Pizza Dough edible
+* Added new music disc
+* Added Pizza Pan
+* Added Pizza Cutter
+* Added alternative recipes for Pizza Dough
+* Added another painting variant
+* Added more hidden advancements
+
+## 🔨 Features
 * Adds Pizza (duh)
 * Adds Tomato along with a new Tomato Plant.
 * A new music disc
@@ -23,7 +35,7 @@ Get the Modrinth app and download from there.
 
 ## 💸 Donate
 
-This is my first minecraft mod. If you would like to fund my mod making journey it would be very much appreciated. 
+This is my first minecraft mod. If you would like to fund my mod making journey it would be very much appreciated.
 
 [![Buy me a coffee button](https://cdn.modrinth.com/data/cached_images/d8321667e41e697ae9502860cd999216dad55867.webp)](https://www.buymeacoffee.com/nonnin)
 

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "create_pizza:raw_pepperoni_pizza"
+  },
+  "result": "create_pizza:pepperoni_pizza"
+}
