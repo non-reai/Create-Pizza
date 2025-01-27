@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "create_pizza",
-  "version": "${version}",
+  "version": "0.1.1",
   "name": "Create Pizza",
-  "description": "Adds some skibidis",
+  "description": "Adds some pizzas and tomatoes to Create mod.",
   "authors": [
     "Non_Reai"
   ],
