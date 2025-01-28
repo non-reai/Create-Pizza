@@ -65,9 +65,6 @@ public class ThrowableTomatoEntity extends ThrowableItemProjectile {
 		entity.playSound(CreatePizzaSoundEvents.SPLAT.getMainEvent(), 1F, (float) (0.8 + this.level().random.nextFloat() * 0.4));
 		entity.hurt(CreatePizzaDamageSources.tomatoHit(entity.level()), 1);
 		if (entity.equals(Minecraft.getInstance().player)) {
-			if (CreatePizzaConfig.getClient().exitGameOnTomatoHit.get() && Minecraft.getInstance().level != null && Minecraft.getInstance().level.isClientSide) {
-				throw new RuntimeException("You got hit by tomato (it's over)");
-			}
 			CreatePizzaClient.TOMATO_SPLAT_OVERLAY_COOLDOWN = 60;
 			CreatePizzaClient.TOMATO_SPLAT_OVERLAY_Y = 0;
 			playSound(CreatePizzaSoundEvents.SPLAT.getMainEvent(), 1F, (float) (0.8 + this.level().random.nextFloat() * 0.4));

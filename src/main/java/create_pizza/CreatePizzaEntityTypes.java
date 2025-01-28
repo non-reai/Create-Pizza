@@ -20,8 +20,5 @@ public class CreatePizzaEntityTypes {
 					.trackRangeBlocks(100).trackedUpdateRate(10) // necessary for all thrown projectiles (as it prevents it from breaking, lol)
 					.build() // VERY IMPORTANT DONT DELETE FOR THE LOVE OF GOD PSLSSSSSS
 	);
-	public static void load() {
-		EntityRendererRegistry.register(THROWABLE_TOMATO, (context) ->
-				new ThrownItemRenderer(context));
-	}
+	public static void load() { }
 }

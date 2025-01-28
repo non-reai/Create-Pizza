@@ -59,7 +59,6 @@ public class CreatePizza implements ModInitializer {
 
 		CreatePizzaSoundEvents.register();
 		CreatePizzaLootTableModifiers.modifyLootTables();
-		CreatePizzaClientEvents.register();
 		CreatePizzaPaintingVariants.load();
 
 		DispenserBlock.registerBehavior(CreatePizzaItems.THROWABLE_TOMATO, new AbstractProjectileDispenseBehavior() {
